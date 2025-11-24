@@ -19,7 +19,7 @@ defaults:
 jobs:
   template-cleanup:
     name: Template cleanup
-    if: ${{github.repository != 'remal-github-actions/template-typescript'}}
+    if: ${{github.repository != 'remal-github-actions/template-composite'}}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
